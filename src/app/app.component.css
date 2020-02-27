@@ -1,0 +1,13 @@
+.cardstyle{
+  margin: 10px;
+  background-color: #dfecf1;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.full-height {
+  height: 100%;
+}
