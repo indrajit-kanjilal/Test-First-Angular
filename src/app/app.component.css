@@ -1,10 +1,19 @@
 .cardstyle{
   margin: 10px;
+  min-width: 650px;
   background-color: #dfecf1;
 }
 
-.inner-cardstyle{
+.inner-cardstyle-wfixed-center{
   background-color: #dfecf1;
+  min-width: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.inner-cardstyle-wfixed-side{
+  background-color: #dfecf1;
+  min-width: 100px;
   margin-left: 10px;
   margin-right: 10px;
 }
