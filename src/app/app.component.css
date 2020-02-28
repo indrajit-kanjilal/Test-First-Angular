@@ -3,6 +3,12 @@
   background-color: #dfecf1;
 }
 
+.inner-cardstyle{
+  background-color: #dfecf1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 html, body {
   height: 100%;
   margin: 0;
@@ -10,4 +16,8 @@ html, body {
 
 .full-height {
   height: 100%;
+}
+
+.full-width {
+  width: 100%;
 }
