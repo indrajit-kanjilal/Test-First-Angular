@@ -1,0 +1,3 @@
+C:\development\net-jni\electron\Akankha UI Builder-github\Test-First-Angular>
+ng g c -m app compoenent/tower
+ng g s -m app service/building

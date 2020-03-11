@@ -1,15 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { AppComponent } from './app.component';
 import { MaterialModule } from './material.module';
-import { FlexLayoutModule } from '@angular/flex-layout';
+import { TowerComponent } from './compoenent/tower/tower.component';
+import { FloorComponent } from './compoenent/floor/floor.component';
+import { WingComponent } from './compoenent/wing/wing.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TowerComponent,
+    FloorComponent,
+    WingComponent
   ],
   imports: [
     FlexLayoutModule,

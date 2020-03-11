@@ -11,11 +11,22 @@
   margin-right: 10px;
 }
 
-.inner-cardstyle-wfixed-side{
+.inner-cardstyle-wfixed-side-unselected{
   background-color: #dfecf1;
   min-width: 100px;
   margin-left: 10px;
   margin-right: 10px;
+  border-top-color: #dfecf1;
+  border-top-style: groove;
+}
+
+.inner-cardstyle-wfixed-side-selected{
+  background-color: #dfecf1;
+  min-width: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-top-color: #bb8b5a;
+  border-top-style: groove;
 }
 
 html, body {
